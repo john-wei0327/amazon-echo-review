@@ -2,10 +2,8 @@
 Conducting sentiment analysis on Amazon Echo reviews
 
 ## Exploratory Data Analysis
-I first imported the relevant libraries and created several summary graphs to visualise the distribution of ratings, positive/negative reviews and review lengths. 
+I first created several summary graphs to visualise the distribution of ratings, positive/negative reviews and review lengths. 
 Next I created word clouds for positive and negative reviews and identified key indicators for negative experiences such as price, bulb and screen. <br />
-
-![](https://drive.google.com/file/d/1dza0oHiK6NunbNk28VNYwL2MI7-BsSS6/view?usp=sharing)
 
 ## Data Cleaning
 I then created a pipeline to remove punctuations, stopwords and performed count vectorisation on the dataset. <br />
